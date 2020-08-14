@@ -12,6 +12,14 @@ if (select) {
     }
 }
 
+// If still no title, try <title>
+if (tit === undefined) {
+    var titleq = document.querySelector("title");
+    if (titleq && confirm("Use '" + titleq.innerText + "' as a title ? ")) {
+        tit = titleq.innerText;
+    }
+}
+
 // If still no title, try h1
 if (tit === undefined) {
     var titleq = document.querySelector("h1");

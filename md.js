@@ -54,13 +54,7 @@ if (loc === undefined) {
     loc = prompt("Enter the url manually:");
 }
 
-liste = "";
-
-if (confirm("Create a list entry?")) {
-    liste = "+ ";
-}
-
-var md = liste + "[" + tit + "](" + loc + ")";
+var md = "[" + tit + "](" + loc + ")";
 
 if (confirm("Copy to clipboard?")) {
     chrome.runtime.sendMessage({ md }, function(response) {

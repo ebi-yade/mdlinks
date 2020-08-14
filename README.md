@@ -2,15 +2,15 @@
 
 A Google Chrome extension to create Markdown links from the current page, i.e:
 
-```
-+ [title](url)
+```md
+[title](url)
 ```
 
 ## How to install
 
 + Download this repo
 
-+ Go to More Tools > Extensions in Google Chrome
++ Go to [Extensions Management Page - chrome://extensions](chrome://extensions)
 
 + Click "load unpacked"
 
@@ -18,42 +18,42 @@ A Google Chrome extension to create Markdown links from the current page, i.e:
 
 ## How it works
 
-When clicked: 
+When clicked:
 
 + The selection (if any) will be suggested as a title
 
-![](img/a.png)
+![Screen Shot](img/a.png)
 
 + If you press cancel, the H1 will be suggested as a title
 
-![](img/b.png)
+![Screen Shot](img/b.png)
 
 + If you press cancel, the first h2 will be suggested as a title
 
-![](img/c.png)
+![Screen Shot](img/c.png)
 
 + If you press cancel, you can enter title by hand
 
-![](img/d.png)
+![Screen Shot](img/d.png)
 
 + The current url without query string is suggested as link
 
-![](img/e.png)
+![Screen Shot](img/e.png)
 
 + f you press cancel, The current url is suggested as link
 
-![](img/f.png)
+![Screen Shot](img/f.png)
 
 + If you press cancel, you can enter url by hand
 
-![](img/g.png)
+![Screen Shot](img/g.png)
 
 + You can set the result as a markdown list entry (`+ []()`)
 
-![](img/h.png)
+![Screen Shot](img/h.png)
 
 + The markdown link is displayed, you can then select, copy, and paste it
 
-![](img/i.png)
+![Screen Shot](img/i.png)
 
-![](img/j.png)
+![Screen Shot](img/j.png)

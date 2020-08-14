@@ -10,7 +10,7 @@ A Google Chrome extension to create Markdown links from the current page, i.e:
 
 + Download this repo
 
-+ Go to [Extensions Management Page - chrome://extensions](chrome://extensions)
++ Go to More Tools > Extensions in Google Chrome or paste `chrome://extensions` into URL bar.
 
 + Click "load unpacked"
 

@@ -28,14 +28,6 @@ if (tit === undefined) {
     }
 }
 
-// If still no title, try frist h2
-if (tit === undefined) {
-    var titleq = document.querySelector("h2");
-    if (titleq && confirm("Use '" + titleq.innerText + "' as a title ? ")) {
-        tit = titleq.innerText;
-    }
-}
-
 // If still no title, prompt
 if (tit === undefined) {
     tit = prompt("Enter the title manually:");
